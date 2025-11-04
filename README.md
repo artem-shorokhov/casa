@@ -63,6 +63,8 @@ https://drive.google.com/drive/folders/1FcSW0X1BpTWv4o7RZBvYYxp6JbfJO64c?usp=sha
 
 ### Gym
 
+- It may be moved to the 2nd floor.
+
 ### Guest Bedroom
 
 - Around 15 sqm. Should fit double bed, wardrobe, working area (table, chair), like a hotel room.
