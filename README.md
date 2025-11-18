@@ -36,9 +36,9 @@ https://drive.google.com/drive/folders/1g9QB53H5fdhQxEqeO8dttQatFZHiXXp6
 
 https://drive.google.com/drive/folders/1fy5ru9TgdCMuizseLFsPLxEFq9drAoqc?usp=sharing
 
-- Wide, like 3m.
-- Wardrobe.
-- Huge mirror.
+- Wide, like 3m. And 3m long.
+- Wardrobe on the one side.
+- Huge mirror on the other.
 - Preferably narrow window next to the front door.
 
 ### Kitchen
@@ -53,17 +53,13 @@ https://drive.google.com/drive/folders/1Zil0PrCdaoy10xjq0k47xJvWvh0NiQZL?usp=dri
 
 https://drive.google.com/drive/folders/1FcSW0X1BpTWv4o7RZBvYYxp6JbfJO64c?usp=sharing
 
-- Fireplace. Maybe makes sense to make it on the beside the TV or on the side wall.
+- Suspended Fireplace.
 - Should be a part of open space with the Kitchen.
-- Cat shelves.
+- Cat shelves across the wall.
 
 ### Laundry
 
 ### Tech Room
-
-### Gym
-
-- It may be moved to the 2nd floor.
 
 ### Guest Bedroom
 
@@ -88,6 +84,7 @@ https://drive.google.com/drive/folders/11BqRb4cG3cxThfV3V3dy55MkWSAwQrBM?usp=sha
 
 - Room around 15 sqm.
 - Bathroom around 10 sqm. With a window, sink, toilet, shower, bath, and a place for toweldryer.
+- Dressing room.
 
 ### Child Bedroom
 
@@ -100,11 +97,13 @@ https://drive.google.com/drive/folders/11BqRb4cG3cxThfV3V3dy55MkWSAwQrBM?usp=sha
 
 - Square area around 10 sqm.
 
+### Gym
+
 ### Hallway
 
 ### Stairs
 
-- Can be placed in the middle of the house like piece of art.
+- Can be placed in the middle of the house like a piece of art.
 
 
 
