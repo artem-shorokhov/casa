@@ -1,0 +1,322 @@
+{
+  "schemaVersion": "1.4.0",
+  "eventId": "evt-8f3a91c4-6e2b-4d7a-9c12-55e80b4f1a90",
+  "correlationId": "corr-20261119-143200-004912",
+  "timestamp": "2026-11-19T14:32:00.184Z",
+  "producer": {
+    "serviceName": "order-fulfillment-engine",
+    "environment": "production",
+    "region": "eu-west-1",
+    "host": "fulfillment-worker-74b9d8c6f-xk29p",
+    "version": "2.18.4"
+  },
+  "routing": {
+    "topic": "orders/eu/fulfillment/shipment-dispatched",
+    "messageType": "SHIPMENT_DISPATCHED",
+    "priority": 4,
+    "deliveryMode": "PERSISTENT",
+    "ttlSeconds": 86400
+  },
+  "order": {
+    "orderId": "ORD-2026-9084712",
+    "customerId": "CUST-4491028",
+    "accountTier": "ENTERPRISE",
+    "currency": "EUR",
+    "totalAmount": 1482.5,
+    "taxAmount": 340.98,
+    "status": "DISPATCHED",
+    "createdAt": "2026-11-19T13:58:11.000Z",
+    "updatedAt": "2026-11-19T14:31:58.912Z",
+    "shippingAddress": {
+      "recipientName": "Ana Ferreira",
+      "streetLine1": "Rua das Flores 142, 3o Esq",
+      "streetLine2": "Zona Industrial Sul",
+      "city": "Lisboa",
+      "postalCode": "1200-195",
+      "countryCode": "PT",
+      "deliveryInstructions": "Call reception upon arrival; loading bay 3."
+    },
+    "billingAddress": {
+      "recipientName": "Atlantic Commerce Lda.",
+      "streetLine1": "Avenida da Liberdade 240",
+      "streetLine2": null,
+      "city": "Lisboa",
+      "postalCode": "1250-148",
+      "countryCode": "PT"
+    },
+    "items": [
+      {
+        "lineNumber": 1,
+        "sku": "SKU-NET-SW-48P-G2",
+        "productName": "Managed 48-Port Gigabit Ethernet Switch Gen2",
+        "category": "networking",
+        "quantity": 2,
+        "unitPrice": 410.0,
+        "discountAmount": 0.0,
+        "weightGrams": 3850,
+        "warehouseId": "WH-LIS-01",
+        "serialNumbers": [
+          "SN-2026-0019481",
+          "SN-2026-0019482"
+        ],
+        "attributes": {
+          "color": "graphite",
+          "rackMountable": true,
+          "warrantyMonths": 36
+        }
+      },
+      {
+        "lineNumber": 2,
+        "sku": "SKU-PWR-UPS-1500VA",
+        "productName": "Line-Interactive Rack UPS 1500VA Pure Sine",
+        "category": "power",
+        "quantity": 1,
+        "unitPrice": 321.52,
+        "discountAmount": 25.0,
+        "weightGrams": 11400,
+        "warehouseId": "WH-LIS-01",
+        "serialNumbers": [
+          "SN-2026-0088410"
+        ],
+        "attributes": {
+          "color": "charcoal",
+          "rackMountable": true,
+          "warrantyMonths": 24
+        }
+      }
+    ]
+  },
+  "telemetryBatch": [
+    {
+      "sequence": 1,
+      "recordedAt": "2026-11-19T14:31:50.100Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.6,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 2,
+      "recordedAt": "2026-11-19T14:31:51.100Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 43.1,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 3,
+      "recordedAt": "2026-11-19T14:31:52.100Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 41.9,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 4,
+      "recordedAt": "2026-11-19T14:31:53.100Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.8,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 5,
+      "recordedAt": "2026-11-19T14:31:54.100Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 43.4,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 6,
+      "recordedAt": "2026-11-19T14:31:55.100Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.2,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 7,
+      "recordedAt": "2026-11-19T14:31:56.100Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.9,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 8,
+      "recordedAt": "2026-11-19T14:31:57.100Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 43.0,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 9,
+      "recordedAt": "2026-11-19T14:31:58.100Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.5,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 10,
+      "recordedAt": "2026-11-19T14:31:59.100Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.7,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 11,
+      "recordedAt": "2026-11-19T14:32:00.010Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 43.2,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 12,
+      "recordedAt": "2026-11-19T14:32:00.050Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.1,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 13,
+      "recordedAt": "2026-11-19T14:32:00.090Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.4,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 14,
+      "recordedAt": "2026-11-19T14:32:00.120Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 43.3,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 15,
+      "recordedAt": "2026-11-19T14:32:00.145Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.8,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 16,
+      "recordedAt": "2026-11-19T14:32:00.160Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.6,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 17,
+      "recordedAt": "2026-11-19T14:32:00.170Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 43.0,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 18,
+      "recordedAt": "2026-11-19T14:32:00.175Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.9,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 19,
+      "recordedAt": "2026-11-19T14:32:00.179Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.5,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 20,
+      "recordedAt": "2026-11-19T14:32:00.181Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 43.1,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    },
+    {
+      "sequence": 21,
+      "recordedAt": "2026-11-19T14:32:00.182Z",
+      "sensorId": "CONVEYOR-BELT-A01",
+      "zone": "packing-lane-01",
+      "metric": "throughput_items_per_min",
+      "value": 42.7,
+      "unit": "items/min",
+      "healthy": true,
+      "notes": "Nominal belt speed and optical scanner read accuracy within SLA threshold."
+    }
+  ]
+}
